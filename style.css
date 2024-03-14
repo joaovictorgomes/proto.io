@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:  #212430;
+    color: white;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+section {
+    padding: 0px 160px;
+}
+
+
+/* ID Frame 3 */
+
+#Frame3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Perfil {
+    width: 340px;
+    height: 349px;
+    border-radius: 24px, 0px, 0px, 24px;
+}
+
+/* Class Frame 4 */
+
+.Frame4 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 940px;
+    background: linear-gradient(180deg, #2F3651 0%, #363C57 51.56%, #2F3653 100%);
+    padding: 25px, 50px, 25px, 50px;
+    border-radius: 0px 24px 24px 0px;
+}
+
+.Titulo {
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.paragrafo {
+    margin-left: 50px;
+}
+
+.Frame4, p {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* Class Frame 5 */
+
+.Frame5 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 50px;
+}
+
+.Frame5 img {
+    object-fit: contain;
+}
+
+.city {
+    margin-top: 5px;
+    display: flex;
+    align-items: center; 
+    color: #747DA4;
+}
+
+.city img {
+    width: 24px;
+    height: auto;
+    margin-right: 10px; 
+}
+
+.localizador {
+    display: flex; 
+    align-items: center; 
+    text-decoration: none;
+    color: #747DA4;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#capa2 {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #747DA4;
+}
+
+/* Class Frame 6 */
+
+.Frame6 {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 50px;
+}
+
+.capa2 {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 245px;
+    height: 34px;
+    background: #454F76;
+    border-radius: 4px;
+    padding: 5px, 10px, 5px, 10px;
+}
+
+.email {
+    display: flex; 
+    align-items: center;
+    color: #8B95BF;
+    gap: 5px;
+}
+
+.email p { 
+    margin-left: none;
+}
+
+
+.capa3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #454F76;
+    Width:78px;
+    Height:32px;
+    border-radius: 4px;
+}
+
+.capa4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52.26px;
+    height: 32px;
+    background: #8FFF00;
+    border-radius: 4px;
+}
+
+/* Class Frame 7 */
+
+.Frame7 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 50px;
+    gap: 50px;
+}
+
+.Frame8{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-bottom: 45px;
+}
+
+.Titulo-Frame7 {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.paragrafo-Frame7 {
+    color: #747DA4;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.img-Frame7 {
+    width: 16px;
+    height: 16px;
+}
+
