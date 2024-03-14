@@ -10,13 +10,13 @@ body {
     font-family: "Red Hat Display", sans-serif;
 }
 
-section {
-    padding: 0px 160px;
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 /* CABEÇALHO*/
 header {
-    padding-inline: 16px;
 }
 
 a{
@@ -32,11 +32,13 @@ button{
 }
   
 .navbar{
-    height: 90px;
-    background-color: transparent;
-    padding: 30px 10px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-bottom: 35px;
+
 }
 
 
@@ -48,17 +50,18 @@ button{
 
 .menu-links{
     display: flex;
-    border-right: 1px solid #ffffff;
-    padding-inline: 3px;
-    font-size: 18px;
+    align-items: center;
+    flex-direction: row;
+    gap: 25px;
+
+    font-size: 16px;
+    font-weight: 700;
 
 }
-
 
 .menu-links a{
     font-weight: 500;
     color: #ffffff;
-    padding: 8px 16px;
 }
 
 .menu-links a:hover{
@@ -66,13 +69,16 @@ button{
 }
 
 .donate {
-    font-weight: 500;
-    padding: 11px 22px;
+    font-weight: 700;
+    font-size: 16px;
+    width: 86px;
+    height: 31px;
+    font-family: "Red Hat Display", sans-serif;
+
     background-color: rgb(0, 255, 13);
     color: #000000;
-    border-radius: 15px;
+    border-radius: 12px;
     transition: 0.2s;
-    font-size: 16px;
 }
 
 .donate:hover{
@@ -86,20 +92,16 @@ button{
     display: none;
     cursor: pointer;
 }
-  
 
+/* midiasocial */                                                                   
 
-/* midiasocial */
-
-#midia{
-    width: auto;
-}
-
-.midiasocial{
+#midiasocial{
     display: flex;
+    flex-direction: row;
     justify-content: end;
-    margin: 10px 330px 10px;
     gap: 25px;
+    padding: 100;
+    margin: 10px 25px 35px;
 }
 
 /* ID Frame 3 */
