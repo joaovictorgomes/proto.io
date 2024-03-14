@@ -98,7 +98,6 @@ button{
 .midiasocial{
     display: flex;
     justify-content: end;
-    align-items: center;
     margin: 10px 330px 10px;
     gap: 25px;
 }
