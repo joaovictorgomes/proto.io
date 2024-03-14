@@ -226,11 +226,12 @@ button{
     padding: 5px, 10px, 5px, 10px;
 }
 
-.email {
-    display: flex; 
+.email a {
+    display: flex;
     align-items: center;
-    color: #8B95BF;
     gap: 5px;
+    list-style: none;
+    color: #8B95BF;
 }
 
 .email p { 
