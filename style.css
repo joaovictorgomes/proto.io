@@ -16,10 +16,7 @@ body {
 }
 
 /* CABEÇALHO*/
-header {
-}
-
-a{
+a {
     text-decoration: none;
 }
 
@@ -228,6 +225,8 @@ button{
 
 .email a {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
     gap: 5px;
     list-style: none;
