@@ -291,3 +291,138 @@ button{
     height: 16px;
 }
 
+/* #Frame 4 */
+
+#Frame4 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#Frame4 h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    margin: 50px 0 15px 0;
+}
+
+/* class Frame50 */
+
+.Frame50 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Frame50, .Frame51 img {
+    cursor: pointer;
+}
+
+.img-loja {
+    margin-left: 15px;
+}
+
+#img-loja {
+    background: #2F3651;
+    border-radius: 13px 0px 0px 13px;
+}
+
+
+.Frame52 {
+    background: #8FFF00;
+    width: 286px;
+    height: 140px;
+    padding: 20px;
+    border-radius: 0 12px 12px 0;
+
+    color: #1F1F1F;
+}
+
+.Frame50 p {
+    margin: 10px 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    font-family: "Red Hat Display", sans-serif;
+    cursor: default;
+
+}
+
+.Frame50, .Frame51, p + p {
+    font-weight: 600;
+}
+
+.Frame50 button {
+    background: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    font-size: 14px;
+}
+
+.btn-1 {
+    color: #1F1F1F;
+}
+
+.paragrafo-Frame52 {
+    color: #1F1F1F;
+}
+
+.Frame53 {
+    background: linear-gradient(180deg, #2F3651 0%, #363C57 51.56%, #2F3653 100%);
+    width: 286px;
+    height: 140px;
+    padding: 20px;
+    border-radius: 0 12px 12px 0;
+
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 18px;
+    color: #747DA4;
+}
+
+.Frame53, p {
+    color: white;
+}
+
+.paragrafo-produto {
+    color: #747DA4;
+}
+
+.Frame53, span {
+    color: #8FFF00;
+}
+
+.Frame53, button {
+    color: #747DA4;
+}
+
+
+/* class Frame51 */
+
+.Frame51 {
+    display: flex;
+    flex-direction: row;
+}
+
+.Frame51 p {
+    margin: 10px 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    font-family: "Red Hat Display", sans-serif;
+    cursor: default;
+
+}
+
+.Frame51 button {
+    background: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    font-size: 14px;
+}
+
+
