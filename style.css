@@ -425,4 +425,35 @@ button{
     font-size: 14px;
 }
 
+/* #Frame11 */
 
+#Frame11 {
+    margin-top: 60px;
+    background:#111111;
+    background-image: url(./assets/painLogo.png);
+    background-repeat: no-repeat; 
+    border-radius: 24px;
+    padding: 0 50px;
+}
+
+.Frame58 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.Frame58 p {
+    display: flex;
+    justify-content: end;
+
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.Frame58 h1 {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 40px;
+}
