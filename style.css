@@ -466,7 +466,7 @@ button{
     margin-top: 60px;
 }
 
-.frame50 {
+#Frame50 {
     display: flex;
     flex-direction: row;
     gap: 15px;
@@ -571,3 +571,74 @@ button{
     line-height: 12px;
 }
 
+
+/* #Frame6 */
+#Frame6 {
+    margin-top: 50px;
+}
+
+.frame50{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.frame53{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-time {
+    background: #111111;
+    background-image: url(./assets/png/painLogo-time.png);
+    background-repeat: no-repeat;
+
+    width: 244px;
+    height: 187px;
+
+    border-radius: 12px 12px 0 0;
+
+    margin-top: 15px;
+}
+
+.Frame55 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    background: #363C57;
+    width: 244px;
+    height: 122px;
+    border-radius: 0px 0px 12px 12px;
+    padding: 20px
+
+}
+
+.Frame55 h1 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.capa-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 5px 0;
+}
+
+.frame5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.frame5 p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+
+    color: #747DA4;
+}
